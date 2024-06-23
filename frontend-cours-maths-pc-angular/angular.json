@@ -37,9 +37,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/assets/css/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/assets/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
