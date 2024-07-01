@@ -11,8 +11,8 @@ repository/setting/actions/general
 ng build --output-path=dist --base-href=/frontend-cours-maths-pc-angular/
 npx angular-cli-ghpages --dir=dist/browser
 
+Website link
 https://mboup1.github.io/frontend-cours-maths-pc-angular/
-
 
 
 
