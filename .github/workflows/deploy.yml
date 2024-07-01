@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build -- --output-path=dist --base-href=/front-cours-maths-pc-angular/
+        run: npm run build -- --output-path=dist --base-href=/frontend-cours-maths-pc-angular/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
