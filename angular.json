@@ -34,8 +34,8 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/app/assets/css/styles.css"],
-            "scripts": ["src/app/assets/js/scripts.js"]
+            "styles": ["src/assets/css/styles.css"],
+            "scripts": ["src/assets/js/scripts.js"]
           },
           "configurations": {
             "production": {
@@ -87,7 +87,7 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/app/assets/css/styles.css"],
+            "styles": ["src/assets/css/styles.css"],
             "scripts": []
           }
         }
