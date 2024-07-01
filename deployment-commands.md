@@ -7,10 +7,10 @@ repository/setting/actions/general
 - Allow GitHub Actions to create and approve pull requests
 
 
-ng build --output-path=dist --base-href=/Projet-site-de-cours-maths-pc-en-ligne/
+ng build --output-path=dist --base-href=/frontend-cours-maths-pc-angular/
 npx angular-cli-ghpages --dir=dist/browser
 
-<!-- https://mboup1.github.io/Projet-site-de-cours-maths-pc-en-ligne/ -->
+<!-- https://mboup1.github.io/maths-physique-chimie/ -->
 
 
 
