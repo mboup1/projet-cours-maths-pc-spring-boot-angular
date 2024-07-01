@@ -1,0 +1,17 @@
+/* app.component.css */
+#cours-domicile {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}
+#cours-domicile h3 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+#cours-domicile p, #cours-domicile ul {
+    margin-bottom: 20px;
+}
+#cours-domicile ul {
+    padding-left: 20px;
+}

@@ -1,3 +1,5 @@
+
+<!-- app.component.html -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,9 +25,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Cours à domicile</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Cours en ligne</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Tarif</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cours-domicile">Cours à domicile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cours-en-ligne">Cours en ligne</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tarif">Tarif</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#team">Team</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
@@ -37,348 +39,241 @@
             <div class="container">
                 <div class="masthead-subheading">Cours particuliers à Agen & Alentours</div>
                 <div class="masthead-heading">Progresser en Maths et Physique Chimie</div>
-                <a class="btn btn-primary btn-xl" href="#services">Plus d'infos</a>
+                <a class="btn btn-primary btn-xl" href="#cours-domicile">Plus d'infos</a>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                </div>
+        <!-- cours-domicile-->
+        <section class="page-section" id="cours-domicile">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2 class="section-heading text-uppercase">Cours à domicile</h2>
+              </div>
             </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
+            <div class="row">
+              <div class="col-12">
+                <p>Pour les cours à domicile, je me déplace chez vous avec tout le matériel nécessaire pour assurer des séances
+                  efficaces et interactives. Chaque cours est personnalisé selon les besoins de l'élève pour garantir une
+                  progression rapide et tangible.</p>
+
+                <h3>Mathématiques :</h3>
+                <p><strong>Collège :</strong> Nous abordons les notions fondamentales telles que les fractions, les proportions,
+                  la géométrie, et l'algèbre de base. Chaque séance vise à renforcer les compétences et à préparer les élèves
+                  aux
+                  examens du Brevet.</p>
+                <p><strong>Lycée :</strong> Les cours incluent l'algèbre avancée, la trigonométrie, le calcul différentiel et
+                  intégral, ainsi que les statistiques et probabilités. L'objectif est de maîtriser le programme du Bac et de se
+                  préparer aux études supérieures.</p>
+
+                <h3>Physique :</h3>
+                <p><strong>Collège :</strong> Les cours couvrent les principes de base comme les forces, l'électricité, le
+                  magnétisme, et la thermodynamique. Les expériences pratiques sont intégrées pour illustrer les concepts
+                  théoriques.</p>
+                <p><strong>Lycée :</strong> Nous approfondissons des sujets tels que la mécanique, l'optique,
+                  l'électromagnétisme,
+                  et la physique nucléaire. Une attention particulière est portée à la résolution de problèmes complexes et à la
+                  préparation aux épreuves du Bac.</p>
+
+                <h3>Chimie :</h3>
+                <p><strong>Collège :</strong> Les élèves découvrent les notions de base de la chimie, y compris les réactions
+                  chimiques, les états de la matière, et la table périodique. Des expériences simples sont réalisées pour
+                  encourager l’apprentissage pratique.</p>
+                <p><strong>Lycée :</strong> Les cours incluent l'étude des réactions chimiques avancées, la chimie organique et
+                  inorganique, et les calculs stœchiométriques. Les séances visent à développer une compréhension approfondie et
+                  à
+                  préparer les élèves pour les examens finaux.</p>
+
+                <h3>Méthodologie :</h3>
+                <ul>
+                  <li><strong>Personnalisation :</strong> Chaque cours est adapté aux besoins spécifiques de l'élève, prenant en
+                    compte ses points forts et ses difficultés.</li>
+                  <li><strong>Interactivité :</strong> Utilisation de matériel pédagogique varié (manuels, exercices
+                    interactifs,
+                    logiciels éducatifs) pour rendre les séances engageantes et dynamiques.</li>
+                  <li><strong>Suivi et évaluation :</strong> Des évaluations régulières sont réalisées pour mesurer les progrès
+                    et
+                    ajuster la stratégie d'apprentissage si nécessaire.</li>
                 </ul>
+
+                <h3>Avantages :</h3>
+                <ul>
+                  <li><strong>Confort et commodité :</strong> Les cours ont lieu à domicile, offrant un environnement familier
+                    et
+                    confortable pour l’élève.</li>
+                  <li><strong>Flexibilité horaire :</strong> Les séances peuvent être programmées selon les disponibilités de
+                    l’élève et de sa famille.</li>
+                  <li><strong>Progression rapide :</strong> Grâce à un suivi individualisé, les élèves progressent à leur propre
+                    rythme, ce qui conduit à des résultats tangibles et rapides.</li>
+                </ul>
+
+                <p>En optant pour des cours à domicile en mathématiques, physique et chimie, les élèves bénéficient d’un soutien
+                  complet et sur mesure pour réussir au collège et au lycée.</p>
+              </div>
             </div>
+          </div>
         </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
+
+        <!-- cours-en-ligne-->
+        <section class="page-section bg-light" id="cours-en-ligne">
+          <div class="container">
+            <div class="text-center">
+              <h2 class="section-heading text-uppercase">Cours en ligne</h2>
             </div>
+            <div class="row">
+              <div class="col-12">
+                <p>Pour les cours en ligne, j'offre des sessions interactives à distance utilisant des outils modernes pour
+                  enseigner les mathématiques et la physique-chimie. Chaque session est adaptée aux besoins spécifiques de
+                  l'élève,
+                  en utilisant des ressources pédagogiques variées pour rendre l'apprentissage efficace et engageant.</p>
+
+                <h3>Mathématiques :</h3>
+                <p>Les cours de mathématiques en ligne couvrent les mêmes concepts que ceux enseignés en présentiel, mais avec
+                  l'utilisation d'outils numériques pour des exercices interactifs et des simulations.</p>
+
+                <h3>Physique-Chimie :</h3>
+                <p>Les sessions de physique-chimie en ligne incluent des expériences virtuelles, des simulations et des
+                  démonstrations pratiques pour illustrer les principes théoriques et encourager une compréhension approfondie
+                  des sujets.</p>
+
+                <h3>Méthodologie :</h3>
+                <ul>
+                  <li><strong>Personnalisation :</strong> Chaque session est adaptée aux besoins spécifiques de l'élève,
+                    intégrant
+                    des exercices et des exemples pertinents.</li>
+                  <li><strong>Interactivité :</strong> Utilisation d'outils numériques et de plateformes éducatives pour
+                    rendre
+                    les sessions aussi engageantes que possible.</li>
+                  <li><strong>Suivi et évaluation :</strong> Des évaluations régulières et des feedbacks personnalisés
+                    permettent
+                    de mesurer les progrès et d'ajuster l'approche d'enseignement si nécessaire.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                    </div>
-                </div>
+      <!-- Tarif des cours -->
+      <section class="page-section" id="tarif">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Tarif des cours</h2>
+            <p class="text-muted">Le tarif des cours varie en fonction du type de cours et de la durée :</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type de cours</th>
+                      <th scope="col">Tarif par heure</th>
+                      <th scope="col">Réduction</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Cours à domicile</td>
+                      <td>20€</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Cours en ligne</td>
+                      <td>18€</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Pack 10 heures</td>
+                      <td>Varie</td>
+                      <td>10% de réduction sur le tarif total</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
+          </div>
+          <div class="text-center mt-4">
+            <p class="text-muted">Contactez-moi pour plus d'informations sur nos tarifs et les options de paiement
+              disponibles.</p>
+          </div>
         </div>
+      </section>
+
         <!-- Contact-->
         <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Votre message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+          <div class="container">
+            <div class="text-center">
+              <h2 class="section-heading text-uppercase">Contact</h2>
+              <p class="section-subheading text-muted">N'hésitez pas à nous contacter pour toute question ou demande d'information.
+              </p>
             </div>
+
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <!-- Name input-->
+                    <input class="form-control" id="name" type="text" placeholder="Votre Nom *"
+                      data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Un nom est requis.</div>
+                  </div>
+                  <div class="form-group">
+                    <!-- Email address input-->
+                    <input class="form-control" id="email" type="email" placeholder="Votre Email *"
+                      data-sb-validations="required,email" />
+                    <div class="invalid-feedback" data-sb-feedback="email:required">Un email est requis.</div>
+                    <div class="invalid-feedback" data-sb-feedback="email:email">Email invalide.</div>
+                  </div>
+                  <div class="form-group mb-md-0">
+                    <!-- Phone number input-->
+                    <input class="form-control" id="phone" type="tel" placeholder="Votre Téléphone *"
+                      data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="phone:required">Un numéro de téléphone est requis.</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-group-textarea mb-md-0">
+                    <!-- Message input-->
+                    <textarea class="form-control" id="message" placeholder="Votre message *"
+                      data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis.</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Submit Button-->
+              <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled">Envoyer</button></div>
+
+              <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyer</button></div> -->
+              <!-- Submit success message-->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center text-white mb-3">
+                  <div class="fw-bolder">Soumission du formulaire réussie!</div>
+                  Pour activer ce formulaire, inscrivez-vous sur
+                  <br />
+                  <a
+                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                </div>
+              </div>
+              <!-- Submit error message-->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Erreur lors de l'envoi du message!</div>
+              </div>
+            </form>
+          </div>
         </section>
+
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy;  2024</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-lg-4 text-lg-end">
+                    <!-- <div class="col-lg-4 text-lg-end">
                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
                         <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>
