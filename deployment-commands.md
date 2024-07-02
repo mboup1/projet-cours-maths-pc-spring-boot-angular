@@ -18,3 +18,10 @@ https://mboup1.github.io/frontend-cours-maths-pc-angular/
 
 <!-- ng build --output-path=dist/frontend-cours-maths-pc-angular --base-href=/frontend-cours-maths-pc-angular/
 npx angular-cli-ghpages --dir=dist/frontend-cours-maths-pc-angular -->
+
+Deploy Manually
+ng build --configuration production
+
+cd dist/app-test-hostinger
+
+Compress-Archive -Path * -DestinationPath ../app-test-hostinger.zip or drag and drop in public_html for hostinger
