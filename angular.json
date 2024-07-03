@@ -35,7 +35,7 @@
               }
             ],
             "styles": ["src/assets/css/styles.css"],
-            "scripts": ["src/assets/js/scripts.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
