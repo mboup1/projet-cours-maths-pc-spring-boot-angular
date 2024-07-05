@@ -16,6 +16,7 @@ https://mboup1.github.io/frontend-cours-maths-pc-angular/
 
 
 
+
 <!-- ng build --output-path=dist/frontend-cours-maths-pc-angular --base-href=/frontend-cours-maths-pc-angular/
 npx angular-cli-ghpages --dir=dist/frontend-cours-maths-pc-angular -->
 

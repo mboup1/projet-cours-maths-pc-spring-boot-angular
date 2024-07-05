@@ -34,7 +34,9 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/assets/css/styles.css"],
+            "styles": [ "src/assets/css/styles.css",
+                        "node_modules/ngx-toastr/toastr.css"
+              ],
             "scripts": ["src/assets/js/scripts.js"]
           },
           "configurations": {

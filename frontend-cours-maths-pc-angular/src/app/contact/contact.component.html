@@ -1,40 +1,48 @@
-<form class="container" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-  <div class="form-group">
-    <label for="name">Nom</label>
-    <input type="text" class="form-control" id="name" formControlName="name" placeholder="Entrez votre nom">
-    <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched" class="text-danger">
-      Un nom est requis.
+<form id="contactForm" data-sb-form-api-token="API_TOKEN" class="container" [formGroup]="contactForm"
+  (ngSubmit)="onSubmit()">
+  <div class="row align-items-stretch mb-5 d-flex">
+    <div class="col-md-6 d-flex flex-column">
+      <div class="form-group">
+        <label for="name">Nom</label>
+        <input type="text" class="form-control" id="name" formControlName="name" placeholder="Entrez votre nom">
+        <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched" class="text-danger">
+          Un nom est requis.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Entrez votre email">
+        <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched" class="text-danger">
+          Un email valide est requis.
+        </div>
+      </div>
+      <div class="form-group mb-md-0">
+        <label for="phone">Téléphone</label>
+        <input type="tel" class="form-control" id="phone" formControlName="phone"
+          placeholder="Entrez votre numéro de téléphone">
+        <div *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched" class="text-danger">
+          Un numéro de téléphone est requis.
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" id="email" formControlName="email" placeholder="Entrez votre email">
-    <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched" class="text-danger">
-      Un email valide est requis.
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="phone">Téléphone</label>
-    <input type="tel" class="form-control" id="phone" formControlName="phone" placeholder="Entrez votre numéro de téléphone">
-    <div *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched" class="text-danger">
-      Un numéro de téléphone est requis.
+    <div class="col-md-6 d-flex flex-column">
+      <div class="form-group form-group-textarea mb-md-0 flex-grow-1">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" formControlName="message"
+          placeholder="Entrez votre message"></textarea>
+        <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched" class="text-danger">
+          Un message est requis.
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="form-group form-group-textarea mb-md-0">
-    <label for="message">Message</label>
-    <textarea class="form-control" id="message" formControlName="message" placeholder="Entrez votre message"></textarea>
-    <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched" class="text-danger">
-      Un message est requis.
-    </div>
+  <div class="text-center">
+    <button type="submit" class="btn btn-primary btn-xl text-uppercase mt-3"
+      [disabled]="contactForm.invalid">Envoyer</button>
   </div>
 
-  <button type="submit" class="btn btn-primary btn-xl text-uppercase mt-3 text-center" [disabled]="contactForm.invalid">Envoyer</button>
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
 </form>
-
-<div *ngIf="successMessage" class="alert alert-success mt-3">
-  {{ successMessage }}
-</div>
-<div *ngIf="errorMessage" class="alert alert-danger mt-3">
-  {{ errorMessage }}
-</div>
