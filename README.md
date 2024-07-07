@@ -4,11 +4,11 @@ This project is an cours-maths-pc application built with Angular and Spring Boot
 
 ## Homepage
 
-![Homepage](frontend-cours-maths-pc-angular\src\app\ressources\Homepage-cours-maths-pc.jpg)
+![Homepage](frontend-cours-maths-pc-angular/src/app/ressources/Homepage-cours-maths-pc.jpg)
 
 ## Contact
 
-![Contact](frontend-cours-maths-pc-angular\src\app\ressources\Contact-cours-maths-pc.jpg)
+![Contact](frontend-cours-maths-pc-angular/src/app/ressources/Contact-cours-maths-pc.jpg)
 
 
 
