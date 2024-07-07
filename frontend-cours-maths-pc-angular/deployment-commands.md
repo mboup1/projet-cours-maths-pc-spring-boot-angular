@@ -7,7 +7,8 @@ repository/setting/actions/general
 -Read and write permissions
 - Allow GitHub Actions to create and approve pull requests
 
-
+ ng build --configuration production
+ 
 ng build --output-path=dist --base-href=/frontend-cours-maths-pc-angular/
 npx angular-cli-ghpages --dir=dist/browser
 

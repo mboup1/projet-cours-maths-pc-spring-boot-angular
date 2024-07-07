@@ -21,7 +21,7 @@ export class ContactComponent {
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, Validators.email]),
     // phone: new FormControl('', [Validators.required, Validators.pattern('^[0-9]*$')]),
-    phone: new FormControl(''),
+    phone: new FormControl('', [Validators.pattern('^[0-9]*$')]),
     message: new FormControl('', [Validators.required])
   });
 
