@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Contact } from '../models/contact.model';
 import { ToastrService } from 'ngx-toastr';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import { environment } from '../../environments/environment';
 
 
 @Component({
@@ -35,6 +36,7 @@ export class ContactComponent {
         message: this.contactForm.get('message')?.value,
       };
 
+      // emailjs.send(environment.emailJsServiceId, environment.emailJsTemplateId, templateParams, environment.emailJsUserId)
       emailjs.send('service_n2t0sj7', 'template_29c199i', templateParams, 'Z2rmah8bXQzQjaIRq')
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
