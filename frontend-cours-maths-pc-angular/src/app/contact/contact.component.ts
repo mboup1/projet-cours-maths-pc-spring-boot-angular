@@ -36,8 +36,8 @@ export class ContactComponent {
         message: this.contactForm.get('message')?.value,
       };
 
-      // emailjs.send(environment.emailJsServiceId, environment.emailJsTemplateId, templateParams, environment.emailJsUserId)
-      emailjs.send('service_n2t0sj7', 'template_29c199i', templateParams, 'Z2rmah8bXQzQjaIRq')
+      emailjs.send(environment.emailJsServiceId, environment.emailJsTemplateId, templateParams, environment.emailJsUserId)
+      // emailjs.send('service_n2t0sj7', 'template_29c199i', templateParams, 'Z2rmah8bXQzQjaIRq')
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           this.toastr.success('Votre message a été envoyé avec succès.');

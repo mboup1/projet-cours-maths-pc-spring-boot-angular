@@ -10,8 +10,6 @@ This project is an cours-maths-pc application built with Angular and Spring Boot
 
 ![Contact](frontend-cours-maths-pc-angular/src/app/ressources/Contact-cours-maths-pc.jpg)
 
-
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
 ## Development server
@@ -38,8 +36,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-
-
 # backend-cours-maths-pc
 
 ```properties
@@ -50,9 +46,8 @@ spring.application.name=cours-maths-pc
 
 # MySQL Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/cours_maths_pc?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
-spring.datasource.username=root
+spring.datasource.username=${DB_USERNAME}
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
-#spring.jpa.hibernate.ddl-auto=create
 spring.main.allow-circular-references = true
 ```
