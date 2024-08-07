@@ -81,10 +81,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "frontend-cours-maths-pc-angular:build:production"
+              "buildTarget": "frontend-cours-maths-pc-angular:build:production"
             },
             "development": {
-              "browserTarget": "frontend-cours-maths-pc-angular:build:development"
+              "buildTarget": "frontend-cours-maths-pc-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,7 +92,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend-cours-maths-pc-angular:build"
+            "buildTarget": "frontend-cours-maths-pc-angular:build"
           }
         },
         "test": {
