@@ -79,21 +79,12 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "build": {
-              "outputPath": "dist/frontend-cours-maths-pc-angular"
-            }
-          },
           "configurations": {
             "production": {
-              "build": {
-                "configuration": "production"
-              }
+              "browserTarget": "frontend-cours-maths-pc-angular:build:production"
             },
             "development": {
-              "build": {
-                "configuration": "development"
-              }
+              "browserTarget": "frontend-cours-maths-pc-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,7 +92,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "outputPath": "src/locale"
+            "browserTarget": "frontend-cours-maths-pc-angular:build"
           }
         },
         "test": {
