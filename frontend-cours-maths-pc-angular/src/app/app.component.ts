@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend-cours-maths-pc-angular';
+
+   closeMenu(): void {
+    const navbarResponsive = document.getElementById('navbarResponsive');
+    if (navbarResponsive && navbarResponsive.classList.contains('show')) {
+      navbarResponsive.classList.remove('show');
+    }
+  }
 }
