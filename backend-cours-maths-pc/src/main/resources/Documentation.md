@@ -55,3 +55,7 @@ echo "export const environment = { production: true, apiUrl: 'http://35.184.173.
 
 cat src/environments/environment.prod.ts
 npm run build -- --configuration=production
+
+npm install -g http-server
+cd dist/frontend-cours-maths-pc-angular
+http-server -o
