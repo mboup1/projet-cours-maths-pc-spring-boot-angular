@@ -7,8 +7,12 @@ sudo yum update -y
 
 sudo yum install java-17-amazon-corretto-devel -y
 
-# Convertir
-ssh-keygen -i -f SpringBootPrivateKey.ppk > SpringBootPrivateKey.pem
+sudo yum install git -y
 
 
-ssh-keygen -t rsa -b 2048 -f C:\Users\mboup\.ssh\SpringBootPrivateKey.pem
+# Cloner le dépôt
+git clone https://github.com/mboup1/projet-cours-maths-pc-spring-boot-angular.git
+cd projet-cours-maths-pc-spring-boot-angular/backend-cours-maths-pc/target
+chmod +x mvnw
+./mvnw clean package -DskipTests
+java -jar target/backend-cours-maths-pc-0.0.1-SNAPSHOT.jar
