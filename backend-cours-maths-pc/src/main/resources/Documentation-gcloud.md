@@ -21,8 +21,8 @@ cd ~/projet-cours-maths-pc-spring-boot-angular/backend-cours-maths-pc
 git pull origin main
 cat src/main/resources/application.properties
 
-
-
+cat src/main/java/com/dame/backend_cours_maths_pc/Config/CorsConfig.java
+cat src/main/java/com/dame/backend_cours_maths_pc/controller/ContactMessageController.java
 # Frontend angular
 
 1. Téléchargez et installez nvm. Exécutez la commande suivante dans votre terminal :
@@ -51,7 +51,7 @@ cat contact/contact.component.ts
 
 # env
 mkdir src/environments
-echo "export const environment = { production: true, apiUrl: 'http://35.184.173.232:8080', emailJsServiceId: 'service_n2t0sj7', emailJsTemplateId: 'template_29c199i', emailJsUserId: 'U6Ptgl9BFIr1j226_' };" > environment.prod.ts
+echo "export const environment = { };" > environment.prod.ts
 
 cat src/environments/environment.prod.ts
 npm run build -- --configuration=production
