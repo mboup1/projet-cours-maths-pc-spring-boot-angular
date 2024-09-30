@@ -58,4 +58,4 @@ npm run build -- --configuration=production
 
 npm install -g http-server
 cd dist/frontend-cours-maths-pc-angular
-http-server -o
+http-server -p 4200 -o
