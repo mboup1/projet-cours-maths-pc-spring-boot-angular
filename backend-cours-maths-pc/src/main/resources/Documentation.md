@@ -17,7 +17,7 @@ java -jar target/backend-cours-maths-pc-0.0.1-SNAPSHOT.jar
 rm -rf ~/projet-cours-maths-pc-spring-boot-angular
 
 Pull
-cd ~/projet-cours-maths-pc-spring-boot-angular
+cd ~/projet-cours-maths-pc-spring-boot-angular/backend-cours-maths-pc
 git pull origin main
 cat src/main/resources/application.properties
 
