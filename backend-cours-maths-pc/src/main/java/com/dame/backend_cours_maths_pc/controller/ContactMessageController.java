@@ -10,7 +10,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/contact")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "http://35.184.173.232:8081")
+//@CrossOrigin(origins = "http://35.184.173.232:8081")
+@CrossOrigin(origins = "*")
 public class ContactMessageController {
 
     @Autowired
