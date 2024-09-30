@@ -55,7 +55,7 @@ export class ContactComponent {
   onSubmit() {
     if (this.contactForm.valid) {
       const contact: Contact = this.contactForm.value as Contact;
-      this.http.post('http://35.184.173.232:8080/api/contact', contact)
+      this.http.post(`${environment.apiUrl}/api/contact`, contact)
       // this.http.post('http://localhost:8080/api/contact', contact)
         .subscribe({
           next: (response) => {

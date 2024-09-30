@@ -44,3 +44,5 @@ cd ~/projet-cours-maths-pc-spring-boot-angular/frontend-cours-maths-pc-angular
 npm install --legacy-peer-deps
 
 npm start
+
+cat contact/contact.component.ts
