@@ -46,3 +46,12 @@ npm install --legacy-peer-deps
 npm start
 
 cat contact/contact.component.ts
+
+
+
+# env
+mkdir src/environments
+echo "export const environment = { production: true, apiUrl: 'http://35.184.173.232:8080', emailJsServiceId: 'service_n2t0sj7', emailJsTemplateId: 'template_29c199i', emailJsUserId: 'U6Ptgl9BFIr1j226_' };" > environment.prod.ts
+
+cat src/environments/environment.prod.ts
+npm run build -- --configuration=production
