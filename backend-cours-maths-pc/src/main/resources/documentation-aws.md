@@ -31,7 +31,7 @@ mysql -h mysqldb.cpuq86y0a47c.eu-west-3.rds.amazonaws.com -u root -p
 # App run 8080
 sudo lsof -i :8080
 
-ajouter dans groupe de securité
+ajouter dans groupe de securité instance/select app/securite/groupes secu/add tcp 80 0/0000
 TCP
 8080
 0.0.0.0/0
